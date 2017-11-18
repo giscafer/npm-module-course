@@ -1,0 +1,29 @@
+{
+  "name": "npm-module-course",
+  "version": "1.0.1",
+  "description": "npm module course demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/test.js",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giscafer/npm-module-course.git"
+  },
+  "keywords": [
+    "npm-modules"
+  ],
+  "author": "giscafer <giscafer@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giscafer/npm-module-course/issues"
+  },
+  "homepage": "https://github.com/giscafer/npm-module-course#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^4.3.1",
+    "gulp-watch": "^4.3.11",
+    "mocha": "^4.0.1"
+  }
+}
